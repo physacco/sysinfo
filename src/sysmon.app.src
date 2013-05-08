@@ -1,0 +1,12 @@
+{application, sysmon,
+ [
+  {description, "SYSMON"},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { sysmon_app, []}},
+  {env, []}
+ ]}.
